@@ -120,6 +120,13 @@ https://docs.docker.com/get-docker/
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
+2. Create .env & update database details.
+   ```sh
+   cd gallery-auction && cp .env-example .env && nano .env
+   ```
+   
+   Choose a username & password and save the file.
+
 3. Build containers.
    ```sh
    make build
