@@ -77,3 +77,5 @@ key:
 	@$(sail) artisan key:generate
 
 install: composer-install node-install key
+
+gofast: build start install migrate node-run

@@ -127,6 +127,8 @@ https://docs.docker.com/get-docker/
 
    Choose a username & password and save the file.
 
+   Eventually you can now run "make gofast" to run all following steps in one go. If you choose to do so your app will be available on port 80 without manually running steps 4-8.
+
 4. Build containers. (Takes a while!)
    ```sh
    make build
