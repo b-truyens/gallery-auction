@@ -128,10 +128,19 @@ https://docs.docker.com/get-docker/
    ```sh
    make start
    ```
-3. Install composer & NPM packages
+5. Install composer & NPM packages
    ```sh
    make install
    ```
+5. Migrate database.
+   ```sh
+   make migrate
+   ```
+5. npm run build
+   ```sh
+   make node-run
+   ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
