@@ -70,3 +70,10 @@ node-install:
 	@$(sail) npm install 
 node-run:
 	@$(sail) npm run build
+
+composer-install:
+	@$(sail) composer install
+key: 
+	@$(sail) artisan key:generate
+
+install: composer-install node-install key

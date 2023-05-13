@@ -107,7 +107,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* Tested on ubuntu server 22.04 ARM64 on a Raspberry pi 4b 4gb.
 * Docker
   
 https://docs.docker.com/get-docker/
@@ -120,33 +120,34 @@ https://docs.docker.com/get-docker/
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Create .env & update database details.
+3. Create .env & update database details.
    ```sh
    cd gallery-auction && cp .env-example .env && nano .env
    ```
-   
+
    Choose a username & password and save the file.
 
-3. Build containers.
+4. Build containers. (Takes a while!)
    ```sh
    make build
    ```
-4. Start project using sail.
+5. Start project using sail.
    ```sh
    make start
    ```
-5. Install composer & NPM packages
+6. Install composer & NPM packages
    ```sh
    make install
    ```
-5. Migrate database.
+7. Migrate database.
    ```sh
    make migrate
    ```
-5. npm run build
+8. npm run build
    ```sh
    make node-run
    ```
+You can now open app on port 80.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
