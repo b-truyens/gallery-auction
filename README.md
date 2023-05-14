@@ -151,6 +151,11 @@ https://docs.docker.com/get-docker/
    ```
 You can now open app on port 80.
 
+(for small changes to css and js run npm run dev - remember to refresh your browser
+use npm run watch when you start working on your css to continually update without having to run dev each time you change css / js.)
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
