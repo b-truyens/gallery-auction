@@ -76,6 +76,13 @@ composer-install:
 key: 
 	@$(sail) artisan key:generate
 
-install: composer-install node-install key
+install: composer-install node-install key link
 
 gofast: build start install migrate node-run
+
+update: composer-install node-install
+	@$(sail) composer update
+
+link:
+	@$(sail) artisan storage:link
+
