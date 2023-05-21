@@ -40,7 +40,7 @@ class PostResource extends Resource
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->maxLength(2048),
-                Forms\Components\Textarea::make('body')
+                Forms\Components\RichEditor::make('body')
                     ->required(),
                 Forms\Components\Toggle::make('active')
                     ->required(),
