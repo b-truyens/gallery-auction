@@ -194,3 +194,4 @@
 192.168.48.1 - - [22/May/2023:13:53:09 +0000] "GET /dashboard HTTP/1.1" 200 7591 "https://php.meti.pro/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 192.168.48.1 - - [22/May/2023:13:54:17 +0000] "GET /dashboard HTTP/1.1" 200 7585 "https://php.meti.pro/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 192.168.48.1 - - [22/May/2023:13:54:48 +0000] "GET /dashboard HTTP/1.1" 200 7589 "https://php.meti.pro/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+192.168.48.1 - - [22/May/2023:14:01:08 +0000] "GET / HTTP/1.1" 200 8063 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
