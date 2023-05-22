@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::middleware([
@@ -26,3 +26,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+require_once __DIR__ . '/jetstream.php';

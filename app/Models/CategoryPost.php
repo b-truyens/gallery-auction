@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class CategoryPost extends Model
 {
-    protected $table = 'category_posts';
+    protected $table = 'category_post';
 
     use HasFactory;
 }
