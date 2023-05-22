@@ -5,9 +5,9 @@ sail := vendor/bin/sail
 
 PROJECT_NAME=gallery-auction
 
-CONTAINER_PHP=gallery-auction-laravel.test-1
+CONTAINER_PHP=gallery-auction-php-fpm-1
 CONTAINER_DB=gallery-auction-mysql-1
-CONTAINER_NODE=gallery-auction-laravel.test-1
+CONTAINER_NODE=gallery-auction-node-1
 
 VOLUME_DATABASE=gallery-auction_sail-mysql
 VOLUME_DATABASE_TESTING=db-testing-data
